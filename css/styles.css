@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+}
+
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+.area {
+  scroll-snap-align: start;
+  height: 100vh;
+  background: #f5efe6;
+}
+
+
+#t{
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#book{
+  height: 100%;
+}
+
+.bookmain{
+  margin-right: 10%; 
+  margin-left: 10%; 
+  margin-top: 15px; 
+  text-align: center;
+}
+
+.img{
+  height: 70vh;
+}
+
+.booktop{
+  background:#29abe2;  
+  height: 10vh; 
+  margin: 0;
+  padding: 0;
+  line-height: 10vh;
+}
+
+.topbook{
+  margin-left: 20px; 
+  /* background: yellow; */
+  font-size: 4vh;
+  top: 150px;
+  color: white;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
